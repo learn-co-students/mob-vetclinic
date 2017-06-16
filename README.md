@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Models
+- Owner
+- Pet
+- Appointment
+- Vet
 
-Things you may want to cover:
+- Continue to build out this project such that an owner can eventually see a page with all of their pets with their assigned vets, the total cost and the next upcoming appointment
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
