@@ -1,0 +1,16 @@
+
+
+<%= form_for @pet do |f| %>
+
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :species %>
+  <%= f.text_field :species %>
+  <%= f.label :age %>
+  <%= f.number_field :age %>
+  <%= f.label :health %>
+  <%= f.text_field :health %>
+  <%= f.collection_select :owner_id, Owner.all, :id, :name %>
+  <%= f.submit %>
+
+<% end %>

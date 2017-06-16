@@ -1,0 +1,3 @@
+class VetsController < ApplicationController
+
+end

@@ -1,0 +1,20 @@
+<h2>New Owner</h2>
+<%= form_for @owner do |f| %>
+<%= f.label :name %>
+<%= f.text_field :name %>
+<%= f.label :address %>
+<%= f.text_field :address %>
+<br>
+<h2>Pets:</h2>
+<%= f.fields_for :pets do |pet| %>
+<%= pet.label :name %>
+<%= pet.text_field :name %>
+<%= pet.label :species %>
+<%= pet.text_field :species %>
+<%= pet.label :age %>
+<%= pet.number_field :age %>
+<%= pet.label :health %>
+<%= pet.text_field :health %>
+<% end %>
+<%= f.submit %>
+<% end %>

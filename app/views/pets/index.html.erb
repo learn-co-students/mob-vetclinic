@@ -1,0 +1,3 @@
+<% @pets.each do |p| %>
+<%= p.name %> <%= link_to "delete", p, method: :delete %>
+<% end %>
